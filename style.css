@@ -84,22 +84,27 @@
 /* teams section */
 
 .teams{
-    max-width: 1440px;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
 
 .teams-img-container{
-    gap: none;
-    border-radius: none;
-    margin-top: 30px;
+   display: grid;
+   grid-template-columns: repeat(2 ,1fr);
+   gap: 10px;
+    
+}
+
+.teams-img-container img{
+    width: 300px;
 }
 
 .teams-container {
-    max-width: 530px;
+    max-width: 500px;
     margin-left: 130px;
 }
 
@@ -126,12 +131,13 @@
 /* - feature section */
 
 .features-section {
-    max-width: 1440px;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 140px;
+    gap: 80px;
+    margin-top: 80px;
 }
 
 .features-title {
@@ -185,9 +191,10 @@
 /* fact-section */
 
 .fact-section{
-    max-width: 1440px;
+    max-width: 1170px;
     margin: 0 auto;
     margin-top: 100px;
+   
 }
 
 .fact-title {
